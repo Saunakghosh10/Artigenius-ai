@@ -1,5 +1,364 @@
 export const surpriseMePrompts = [
+  "A grand steampunk city with towering clockwork structures and airships dotting the sky.",
+  "A futuristic cityscape with towering skyscrapers, flying cars, and holographic billboards.",
+  "A futuristic underwater research station with glass domes, advanced technology, and marine scientists exploring the depths.",
+
+  "A grand steampunk city with towering clockwork structures and airships dotting the sky.",
+
+  "A serene mountain retreat with log cabins, a glistening lake, and snow-capped peaks.",
+
+  "A magical forest glen with talking animals and glowing fireflies.",
+
+  "An underwater city populated by mermaids, colorful fish, and vibrant coral gardens.",
+
+  "A secret underground laboratory with advanced robotics and cutting-edge technology.",
+
+  "A floating island in the sky with cascading waterfalls and lush greenery.",
+
+  "A mystical cave with glowing crystals and hidden treasures.",
+
+  "A futuristic sports arena with high-tech equipment and a roaring crowd.",
+
+  "A peaceful Zen garden with meticulously raked sand and bonsai trees.",
+
+  "A bustling futuristic city with flying cars, holographic billboards, and bustling crowds.",
+
+  "A whimsical village populated by friendly gnomes and magical creatures.",
+
+  "A post-apocalyptic wasteland with crumbling buildings and overgrown vegetation.",
+
+  "A charming European village with cobblestone streets and cozy cafes.",
+
+  "A futuristic cyberpunk city with towering skyscrapers and neon-lit streets.",
+
+  "A haunted mansion shrouded in mist and filled with ghostly apparitions.",
+
+  "A tropical paradise with white sandy beaches, turquoise waters, and palm trees.",
+
+  "A majestic waterfall cascading down lush green cliffs into a pristine pool.",
+
+  "A retro-futuristic space colony on a distant planet with dome-shaped habitats.",
+
+  "A tranquil moonlit night over a serene lake with a reflection of the full moon.",
+
+  "A magical ice palace with intricate ice sculptures and shimmering chandeliers.",
+
+  "A dense jungle teeming with exotic wildlife, ancient ruins, and hidden treasures.",
+
+  "An otherworldly alien landscape with strange rock formations and vibrant alien flora.",
+
+  "A cozy cafe tucked away in a quiet alley, filled with the aroma of freshly brewed coffee.",
+
+  "A vibrant street market with colorful stalls, street performers, and delicious street food.",
+
+  "A mythical creature sanctuary with dragons, unicorns, and phoenixes roaming freely.",
+
+  "A futuristic underwater city with transparent domes and aquatic transportation.",
+
+  "A mesmerizing light show in the night sky with swirling colors and shooting stars.",
+
+  "A medieval castle perched atop a cliff overlooking a picturesque countryside.",
+
+  "A floating garden in the clouds with floating islands and cascading waterfalls.",
   "an armchair in the shape of an avocado",
+  "A bustling futuristic marketplace with holographic displays and flying drones.",
+
+  "A time-traveling adventure with a steampunk-inspired flying machine and ancient artifacts.",
+
+  "A serene Japanese tea garden with cherry blossom trees and a traditional tea house.",
+
+  "A hidden underground library with shelves filled with ancient books and manuscripts.",
+
+  "A futuristic spaceport with spaceships docking and intergalactic travelers.",
+
+  "A whimsical candyland with giant lollipops, candy-coated trees, and chocolate rivers.",
+
+  "A breathtaking view of Earth from outer space, with the curvature of the planet visible.",
+
+  "A lush vineyard with rows of grapevines and a rustic winery in the background.",
+
+  "A cozy winter cabin nestled in a snowy forest, with a warm fireplace crackling.",
+
+  "A futuristic laboratory with scientists conducting experiments and analyzing data.",
+
+  "A thrilling roller coaster ride with twists, turns, and exhilarating drops.",
+
+  "A peaceful lakeside retreat with wooden cabins, fishing docks, and tranquil waters.",
+
+  "A bustling street in a vibrant Asian city with colorful lanterns and street food vendors.",
+
+  "A magnificent castle in the clouds, accessible only by a magical floating staircase.",
+
+  "An ancient Egyptian pyramid surrounded by desert sands and hieroglyph-covered walls.",
+
+  "A high-tech spaceship exploring the far reaches of the universe, discovering new planets.",
+
+  "A surreal underwater cave with bioluminescent creatures and an eerie blue glow.",
+
+  "A picturesque countryside landscape with rolling hills, grazing sheep, and a winding river.",
+
+  "A thrilling safari adventure in the African savannah, encountering majestic wildlife.",
+
+  "A futuristic cityscape at night, with holographic billboards and a bustling nightlife.",
+
+  "A tranquil yoga retreat in the mountains, with panoramic views and meditation sessions.",
+
+  "A quaint seaside village with colorful houses, sandy beaches, and fishing boats.",
+
+  "A hidden treasure chest buried on a deserted island, waiting to be discovered.",
+
+  "A magical forest filled with talking trees, mischievous fairies, and mythical creatures.",
+
+  "A futuristic train station with high-speed trains arriving and departing.",
+
+  "A dramatic thunderstorm with lightning bolts illuminating a stormy sky.",
+
+  "A scenic hot air balloon ride over rolling hills and picturesque landscapes.",
+
+  "A lively music festival with stages, crowds, and a diverse lineup of performers.",
+
+  "A peaceful meditation garden with zen stones, water features, and lush greenery.",
+
+  "A grand concert hall filled with an orchestra, conductor, and passionate musicians.",
+
+  "A charming old bookstore with shelves lined with antique books and cozy reading nooks.",
+  "A thrilling adventure through a dense jungle, encountering wild animals and hidden treasures.",
+
+  "A futuristic cityscape with flying cars zooming through towering skyscrapers.",
+
+  "A tranquil beach at sunset, with golden hues, gentle waves, and seagulls soaring.",
+
+  "A magical wizard's tower with spellbooks, potion ingredients, and a crystal ball.",
+
+  "A vibrant Indian marketplace with bustling crowds, vibrant fabrics, and aromatic spices.",
+
+  "A medieval jousting tournament with knights in shining armor and cheering spectators.",
+
+  "A serene lakeside cabin with a rowboat, surrounded by picturesque mountains.",
+
+  "A futuristic amusement park with gravity-defying rides and virtual reality experiences.",
+
+  "A cozy winter scene with a log cabin, snow-covered trees, and a glowing fireplace.",
+
+  "A futuristic city skyline at dusk, with buildings illuminated by colorful neon lights.",
+
+  "A tranquil waterfall hidden deep within a lush rainforest, surrounded by tropical foliage.",
+
+  "An ancient Mayan temple with intricate stone carvings and a view of the jungle.",
+
+  "A peaceful countryside picnic with a checkered blanket, delicious food, and blooming flowers.",
+
+  "A bustling night market in an Asian city, filled with street vendors and cultural performances.",
+
+  "A majestic cathedral with towering stained glass windows and ornate architectural details.",
+
+  "A scenic hiking trail through a dense forest, with sunlight filtering through the trees.",
+
+  "A modern art gallery filled with abstract paintings and sculptures.",
+
+  "A tranquil lakeside dock with a rowboat, perfect for fishing or enjoying the sunset.",
+
+  "A futuristic space colony with domed habitats and a bustling community of astronauts.",
+
+  "A charming countryside farm with rolling fields, grazing cows, and a red barn.",
+
+  "A thrilling snowboarding adventure down a steep mountain slope, surrounded by snow-capped peaks.",
+
+  "A magical underwater kingdom with majestic mermaids, colorful coral reefs, and hidden treasures.",
+
+  "A bustling street market in Marrakech, filled with vibrant textiles, spices, and handicrafts.",
+
+  "A cozy coffee shop with aromatic coffee beans, comfy chairs, and steaming cups of espresso.",
+
+  "A tranquil Zen rock garden with carefully placed stones and raked sand.",
+
+  "A futuristic space station orbiting a distant planet, with astronauts conducting scientific experiments.",
+
+  "A picturesque vineyard at sunset, with rows of grapevines bathed in warm golden light.",
+  "A thrilling bungee jumping experience from a towering cliff, overlooking a scenic canyon.",
+  "A bustling city street with colorful storefronts, street performers, and a diverse crowd.",
+  "A peaceful countryside cottage surrounded by blooming flowers and a picket fence.",
+
+  "A bustling city street during a festive parade, with colorful floats and joyful spectators.",
+
+  "A serene lakeside campsite with a crackling campfire, tents, and starry night skies.",
+
+  "A futuristic sports stadium with cheering fans, bright stadium lights, and intense competition.",
+
+  "A mysterious ancient temple hidden deep within a dense jungle, filled with ancient artifacts.",
+
+  "A charming European cobblestone street lined with historic buildings and outdoor cafes.",
+
+  "A thrilling zip-lining adventure through a dense rainforest canopy, surrounded by lush greenery.",
+
+  "A tranquil seaside lighthouse with crashing waves, guiding ships safely to shore.",
+
+  "A vibrant Indian wedding celebration, with colorful decorations, traditional attire, and joyful dancing.",
+
+  "A futuristic spaceport with massive rockets launching into space, leaving trails of smoke behind.",
+
+  "A peaceful countryside vineyard with neatly arranged grapevines and a rustic wine tasting room.",
+  "A thrilling roller coaster ride at sunset, with breathtaking views and a sense of exhilaration.",
+
+  "A tranquil riverside cabin nestled in a lush forest, surrounded by towering trees and wildlife.",
+
+  "A bustling Asian street market with vibrant stalls, street performers, and aromatic street food.",
+
+  "A majestic castle perched on a hilltop, overlooking a picturesque valley below.",
+
+  "A serene yoga retreat in the mountains, with panoramic views and soothing meditation sessions.",
+
+  "A futuristic cityscape with towering skyscrapers, flying vehicles, and holographic advertisements.",
+
+  "A peaceful lakeside cottage with a wooden dock, rowboat, and a stunning sunset view.",
+
+  "A thrilling safari adventure in the African savannah, encountering majestic wildlife up close.",
+
+  "A whimsical fairytale forest with towering mushrooms, sparkling fireflies, and talking animals.",
+
+  "A futuristic underwater city with glass domes, colorful marine life, and advanced technology.",
+
+  "A vibrant street market in Marrakech, with bustling crowds, exotic spices, and intricate handicrafts.",
+
+  "A serene mountain cabin surrounded by snow-capped peaks, with a cozy fireplace inside.",
+
+  "A futuristic robotic factory with automated machines assembling intricate electronic devices.",
+
+  "A peaceful Japanese garden with a koi pond, zen rock formations, and meticulously pruned bonsai trees.",
+
+  "A thrilling skydiving adventure, soaring through the clouds and experiencing an adrenaline rush.",
+  "A picturesque European village with cobblestone streets, half-timbered houses, and flower-filled balconies.",
+  "A tranquil countryside farm with rolling fields of wheat, grazing sheep, and a red farmhouse.",
+
+  "A bustling outdoor market in a Moroccan medina, with colorful textiles, spices, and traditional crafts.",
+
+  "A futuristic space colony on a distant planet, with towering biodomes and advanced sustainable technologies.",
+  ,
+  "A serene lakeside cabin surrounded by autumn foliage, with reflections of colorful trees in the water.",
+
+  "A thrilling white-water rafting adventure through a raging river, surrounded by towering cliffs.",
+
+  "A peaceful tropical beach with turquoise waters, palm trees swaying in the breeze, and white sandy shores.",
+
+  "A bustling night market in Bangkok, with aromatic street food, vibrant clothing stalls, and lively entertainment.",
+
+  "A majestic ancient Greek temple with imposing columns, overlooking a serene valley below.",
+
+  "A cozy bookshop in a charming European town, with shelves filled with classic novels and comfortable reading corners.",
+
+  "A thrilling Formula 1 race with high-speed cars zooming around a track, adrenaline pumping through the air.",
+
+  "A tranquil waterfall cascading down moss-covered rocks, surrounded by a lush rainforest.",
+
+  "A vibrant Indian marketplace, with bustling crowds, vibrant textiles, and the aroma of spicy street food.",
+
+  "A futuristic space station with astronauts floating in zero gravity, conducting experiments and observing the cosmos.",
+
+  "A peaceful countryside vineyard at sunrise, with misty vine rows and a warm glow on the horizon.",
+  "A bustling city square during a cultural festival, with traditional music, dance performances, and mouthwatering cuisine.",
+  "A serene lakeside campsite under a starry sky, with crackling campfires and the sounds of nature all around.",
+
+  "A futuristic sports arena with a packed stadium, enthusiastic fans, and intense competition.",
+
+  "A mystical ancient ruin hidden deep within a dense forest, shrouded in mystery and intrigue.",
+
+  "A charming European village with cobblestone streets, colorful houses, and charming sidewalk cafes.",
+
+  "A thrilling zip-lining adventure through a lush rainforest, gliding above the treetops with breathtaking views.",
+
+  "A tranquil seaside lighthouse at dusk, with a beacon of light guiding ships safely to shore.",
+
+  "A vibrant Indian wedding celebration, with ornate decorations, traditional attire, and joyful dancing.",
+
+  "A futuristic spaceport with towering rockets ready for launch, destined for interplanetary exploration.",
+
+  "A peaceful countryside vineyard, with neatly arranged grapevines, rolling hills, and a rustic wine tasting room.",
+
+  "A thrilling roller coaster ride at sunset, with panoramic views and an exhilarating sense of speed.",
+
+  "A serene riverside cabin nestled in a secluded forest, with the gentle sound of a flowing river nearby.",
+  "A bustling Asian street market, filled with colorful stalls, aromatic street food, and lively street performers.",
+
+  "A majestic castle perched on a rocky cliff, overlooking a vast expanse of breathtaking natural beauty.",
+
+  "A tranquil yoga retreat in the mountains, with panoramic views, lush greenery, and serene meditation sessions.",
+
+  "A futuristic cityscape with towering skyscrapers, sleek flying vehicles, and holographic billboards.",
+
+  "A peaceful lakeside cottage with a wooden dock, a rowboat, and a picturesque view of the surrounding nature.",
+
+  "A thrilling safari adventure in the African savannah, encountering majestic wildlife in their natural habitat.",
+  "A whimsical fairytale forest, with enchanting pathways, mystical creatures, and ethereal shafts of sunlight.",
+  "A futuristic underwater city, with transparent domes, vibrant coral reefs, and a bustling marine community.",
+  "A vibrant street market in Marrakech, with bustling crowds, exotic spices, and intricate handicrafts.",
+
+  "A serene mountain cabin surrounded by snow-capped peaks, with a cozy fireplace and warm ambiance inside.",
+
+  "A futuristic robotic factory, with automated machines assembling intricate electronic devices with precision.",
+
+  "A peaceful Japanese garden, with a tranquil koi pond, meticulously raked sand, and lush greenery.",
+
+  "A thrilling skydiving adventure, freefalling through the clouds and experiencing an adrenaline-fueled rush.",
+
+  "A picturesque European village, with charming cobblestone streets, half-timbered houses, and vibrant flowers.",
+
+  "A tranquil countryside farm, with rolling fields of wheat, grazing animals, and a red farmhouse in the distance.",
+
+  "A bustling outdoor market in a Moroccan medina, with vibrant textiles, aromatic spices, and traditional crafts.",
+
+  "A futuristic space colony on a distant planet, with towering biodomes, advanced technologies, and a harmonious community.",
+
+  "A serene lakeside cabin surrounded by autumn foliage, with the colors of the trees reflected in the calm water.",
+
+  "A thrilling white-water rafting adventure, navigating through turbulent rapids amidst stunning natural landscapes.",
+
+  "A peaceful tropical beach, with crystal-clear turquoise waters, swaying palm trees, and soft white sand.",
+
+  "A bustling night market in Bangkok, with mouthwatering street food, colorful clothing stalls, and energetic performances.",
+
+  "A majestic ancient Greek temple, with grand columns, intricate carvings, and a sense of timeless history.",
+
+  "A cozy bookshop in a charming European town, with shelves filled with beloved novels and inviting reading corners.",
+
+  "A thrilling Formula 1 race, with high-speed cars zooming around the track and adrenaline filling the air.",
+
+  "A tranquil waterfall, cascading down moss-covered rocks into a serene pool surrounded by lush greenery.",
+
+  "A vibrant Indian marketplace, with bustling crowds, colorful textiles, and the enticing aroma of exotic spices.",
+
+  "A futuristic space station, with astronauts floating in zero gravity, conducting experiments and marveling at the vastness of space.",
+  "A peaceful countryside vineyard at sunrise, with rows of grapevines, gentle mist, and a warm glow on the horizon.",
+
+  "A bustling city square during a cultural festival, with vibrant music, captivating dance performances, and delectable cuisine.",
+  "A serene lakeside campsite under a starry sky, with crackling campfires, cozy tents, and the tranquil sounds of nature.",
+  "A futuristic sports arena, with a packed stadium, enthusiastic fans cheering, and intense athletic competition.",
+  "A mystical ancient ruin hidden deep within a dense forest, evoking a sense of mystery, history, and exploration.",
+  "A charming European village, with narrow cobblestone streets, picturesque houses adorned with colorful flowers, and inviting sidewalk cafes.",
+  "A thrilling zip-lining adventure, soaring above the treetops of a lush rainforest, surrounded by breathtaking natural beauty.",
+  "A tranquil seaside lighthouse at dusk, casting its comforting beam of light over the calm waters, guiding ships to safety.",
+  "A vibrant Indian wedding celebration, with elaborate decorations, ornate attire, joyful dancing, and a festive atmosphere.",
+  "A futuristic spaceport, with towering rockets poised for interplanetary travel, emitting plumes of smoke and fire.",
+  "A peaceful countryside vineyard, with neatly aligned rows of grapevines, gently rolling hills, and a rustic wine-tasting room.",
+  "A thrilling roller coaster ride at sunset, with breathtaking views, exhilarating twists and turns, and a sense of pure excitement.",
+  "A serene riverside cabin nestled in a secluded forest, surrounded by tall trees, a gentle river flowing nearby, and tranquility all around.",
+  "A bustling Asian street market, with vibrant stalls, colorful textiles, aromatic street food, and the lively chatter of shoppers and vendors.",
+  "A majestic castle perched on a rocky cliff, overlooking a vast expanse of breathtaking natural beauty and a sense of timeless grandeur.",
+  "A tranquil yoga retreat in the mountains, with panoramic views of majestic peaks, serene meditation sessions, and a blissful atmosphere.",
+  "A futuristic cityscape, with towering skyscrapers piercing the clouds, sleek flying vehicles whizzing by, and holographic advertisements illuminating the streets.",
+  "A peaceful lakeside cottage, with a wooden dock stretching into the calm water, a rowboat gently swaying, and a stunning sunset painting the sky in vibrant colors.",
+  "A thrilling safari adventure in the African savannah, with encounters with majestic wildlife, vast open plains, and the raw beauty of nature.",
+  "A whimsical fairytale forest, with towering trees, enchanting pathways, sparkling streams, and magical creatures hiding among the foliage.",
+  "A futuristic underwater city, with transparent domes revealing a bustling metropolis beneath the waves, colorful marine life, and advanced technology coexisting.",
+  "A vibrant street market in Marrakech, with bustling crowds exploring vibrant stalls, tantalizing aromas of spices, and a kaleidoscope of colors.",
+  "A serene mountain cabin, nestled amidst snow-capped peaks, with a cozy fireplace crackling inside, providing a warm and inviting ambiance.",
+  "A futuristic robotic factory, where advanced machines work in perfect harmony, assembling intricate electronic devices with precision and efficiency.",
+  "A peaceful Japanese garden, meticulously designed with a tranquil koi pond, perfectly manicured bonsai trees, and a serene atmosphere.",
+  "A thrilling skydiving adventure, as you leap from a plane and experience the exhilarating freefall, surrounded by the vastness of the sky.",
+  "A picturesque European village, with charming cobblestone streets, quaint houses adorned with colorful flowers, and the aroma of freshly baked bread wafting from local bakeries.",
+  "A tranquil countryside farm, with rolling fields of golden wheat, grazing livestock, and a rustic red farmhouse nestled amidst the landscape.",
+  "A bustling outdoor market in a Moroccan medina, with vibrant textiles, aromatic spices, traditional handicrafts, and the lively banter of merchants and customers.",
+  "A futuristic space colony on a distant planet, with advanced technologies, self-sustainable ecosystems, and a harmonious community thriving in the vastness of space.",
+  "A serene lakeside cabin surrounded by autumn foliage, with the colors of the trees mirrored in the calm water, creating a picturesque and tranquil scene.",
   "a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers",
   "teddy bears shopping for groceries in Japan, ukiyo-e",
   "an oil painting by Matisse of a humanoid robot playing chess",
